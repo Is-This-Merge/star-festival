@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>2026 별축제</title>
+  <meta content="B612" name="description">
+  <meta content="introducing star festival" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+</head>
+
+<body>
+  <canvas id="myCanvas"></canvas>
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <a href="#"><img src="assets/img/navbar_logo.png" alt="Logo"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Activities</a></li>
+          <li><a class="nav-link scrollto " href="#targets">Targets</a></li>
+           <li><a class="nav-link scrollto " href="#blog">Band</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <img src="assets/img/logo.png" style="width: 50%" alt="Main Logo">
+          <p class="hero-subtitle" style="font-family:PyeongChangPeace-Bold"><span class="typed"
+              data-typed-items="2026 별축제, 별 하나의 추억, 별 하나의 사랑"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-2">
+                  <!-- <img src="assets/img/5f_map.png" class="img-fluid rounded b-shadow-a" alt=""> -->
+                </div>
+                <div class="col-md-8">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left" style="font-family: PyeongChangPeace-Bold">
+                        B612에서는...
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      SASA 교내 옥상의 천문대(SAO)의 <span style="font-weight: bold; color: var(--second);">여러 장비와 4인치 굴절 망원경</span>을 다루며 하늘을 관측하기도 하고 DSLR 카메라를 사용해 <span style="font-weight: bold; color: var(--second);">천체의 점상 사진과 일주 사진을 촬영하고 보정</span>하는 방법을 익히기도 하죠. 매년 국내의 천문대에 직접 방문하는 등 최고의 천체 사진을 얻으려 노력합니다. 또, <span style="font-weight: bold; color: var(--second);">Open SASA와 별축제</span>에서 여러분을 만나 여러분의 별에 대한 궁금증과 창의력을 일깨워주기도 한답니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                부스 목록
+              </h3>
+              <p class="subtitle-a">
+                2026년 별축제 체험 부스
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row booth-grid">
+          <div class="col-md-6">
+            <div class="service-box booth-card">
+              <div class="booth-header">
+                <span class="ico-circle booth-icon"><i class="bi bi-stars"></i></span>
+                <div>
+                  <h2 class="title-s">아트비트</h2>
+                  <span class="booth-location"><i class="bi bi-geo-alt-fill"></i> 5층 로비 좌측</span>
+                </div>
+              </div>
+              <div class="service-content">
+                <div class="booth-activity">
+                  <h3>만화경 만들기 <span class="activity-note">10분당 4명 · 총 6회 · 예약제</span></h3>
+                  <p>밤하늘의 별들이 찬란하게 빛나는 모습을 언제 어디서든 볼 수 있는 MDF 만화경을 만들어요.</p>
+                </div>
+                <div class="booth-activity">
+                  <h3>경품 뽑기</h3>
+                </div>
+                <div class="booth-activity">
+                  <h3>고무줄총 쏘기</h3>
+                  <p>과녁을 맞히고 상품을 받아 가세요!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-box booth-card">
+              <div class="booth-header">
+                <span class="ico-circle booth-icon"><i class="bi bi-moon-stars-fill"></i></span>
+                <div>
+                  <h2 class="title-s">T.O.P</h2>
+                  <span class="booth-location"><i class="bi bi-geo-alt-fill"></i> S503</span>
+                </div>
+              </div>
+              <div class="service-content">
+                <div class="booth-activity">
+                  <h3>광섬유 별빛 스노우볼 만들기 <span class="activity-note">회차당 5명 · 총 6회</span></h3>
+                  <p><strong>나만의 밤하늘, 손끝에서 태어나다.</strong> 광섬유와 미니어처로 세상에 하나뿐인 별빛 스노우볼을 직접 만들어요. 학교 옥상에서 망원경으로 본 밤하늘을 작은 유리구 속에 옮겨 담고, 미니어처를 배치·조립하며 광섬유의 물리학적 원리를 알아봅니다.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-box booth-card">
+              <div class="booth-header">
+                <span class="ico-circle booth-icon"><i class="bi bi-gear-wide-connected"></i></span>
+                <div>
+                  <h2 class="title-s">THE BIT</h2>
+                  <span class="booth-location"><i class="bi bi-geo-alt-fill"></i> S509</span>
+                </div>
+              </div>
+              <div class="service-content">
+                <div class="booth-activity">
+                  <h3>태양계 오토마타 만들기 <span class="activity-note">회차당 8명 · 총 6회</span></h3>
+                  <p>태양과 8개 행성의 특징 및 공전 원리, 캠과 기어의 작동 원리를 알아본 뒤 모형을 조립해요. 프레임과 기어 축을 조립하고 수성부터 해왕성까지 행성을 순서대로 고정해 손잡이를 돌려 봅니다.</p>
+                  <p>행성 표면 텍스처와 야광 스티커를 붙이고 LED 와이어 조명으로 우주를 꾸며요. 실내를 어둡게 한 뒤 조명을 켜고 손잡이를 돌려, 빛나는 태양계의 회전과 상하 운동을 감상합니다.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-box booth-card">
+              <div class="booth-header">
+                <span class="ico-circle booth-icon"><i class="bi bi-circle"></i></span>
+                <div>
+                  <h2 class="title-s">징검다리</h2>
+                  <span class="booth-location"><i class="bi bi-geo-alt-fill"></i> S511</span>
+                </div>
+              </div>
+              <div class="service-content">
+                <div class="booth-activity">
+                  <h3>태양계 팔찌 <span class="activity-note">5분 · 2~3명</span></h3>
+                  <p>태양계 행성들을 의미하는 구슬을 줄에 연결해 팔찌를 만들어요.</p>
+                </div>
+                <div class="booth-activity">
+                  <h3>가죽 키링 <span class="activity-note">3분 · 2명</span></h3>
+                  <p>가죽을 원하는 크기로 자르고 염색한 뒤, 생일에 맞는 별자리를 새겨요. 구멍을 뚫고 실을 엮어 키링을 완성합니다.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-box booth-card">
+              <div class="booth-header">
+                <span class="ico-circle booth-icon"><i class="bi bi-circle-half"></i></span>
+                <div>
+                  <h2 class="title-s">토크</h2>
+                  <span class="booth-location"><i class="bi bi-geo-alt-fill"></i> 5층 로비 우측</span>
+                </div>
+              </div>
+              <div class="service-content">
+                <div class="booth-activity">
+                  <h3>천체 요요 만들기 <span class="activity-note">회차당 4명 · 총 6회</span></h3>
+                  <p>천체의 자전 현상을 배우고, 원하는 천체를 그린 스티커를 요요에 붙여요. 요요 돌리는 법을 연습한 뒤 친구들과 시합합니다. 가장 빠르고 오래 돌리는 사람이 승리합니다.</p>
+                </div>
+                <div class="booth-activity">
+                  <h3>행성 고리 던지기 <span class="activity-note">회차당 4명 · 총 6회</span></h3>
+                  <p>천체의 고리가 만들어지는 과정을 배우고 원하는 천체의 고리를 꾸며요. 직접 만든 고리로 연습한 뒤, 실전에서 고리 세 개를 모두 넣으면 성공입니다.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <section class="booth-location-guide" aria-labelledby="booth-location-title">
+              <div class="operation-heading">
+                <div>
+                  <p class="operation-eyebrow">BOOTH LOCATIONS</p>
+                  <h3 id="booth-location-title">부스 위치 안내</h3>
+                </div>
+                <p>5층 로비와 S동에서 만나요.</p>
+              </div>
+              <div class="booth-location-layout">
+                <div class="booth-map-scroll" role="region" aria-label="부스 위치 약도, 가로로 스크롤할 수 있습니다" tabindex="0">
+                  <svg class="booth-floor-map" viewBox="100 455 535 235" role="img"
+                    aria-labelledby="booth-map-title booth-map-description">
+                    <title id="booth-map-title">5층 로비 및 S동 부스 위치</title>
+                    <desc id="booth-map-description">번호로 부스 위치를 표시한 안내도입니다. 각 번호의 장소와 부스는 바로 아래 번호별 목록에서 확인할 수 있습니다.</desc>
+                    <polygon class="map-hall" points="428,470 464,468 464,553 518,553 518,574 496,574 495,578 465,578 463,574 284,574 282,593 269,593 268,576 229,576 228,612 221,619 185,602 179,609 159,655 156,646 162,633 166,631 177,598 153,586 159,573 173,581 185,583 193,565 264,565 267,562 267,549 284,549 286,567 431,566 428,548 394,548 393,527 428,526"></polygon>
+                    <polygon class="map-void" points="464,466 464,551 529,550 530,545 534,545 554,527"></polygon>
+                    <g class="map-rooms">
+                      <rect x="314" y="577" width="23" height="35"></rect>
+                      <rect x="337" y="577" width="23" height="35"></rect>
+                      <rect x="360" y="577" width="29" height="35"></rect>
+                      <rect x="389" y="577" width="24" height="35"></rect>
+                      <rect x="464" y="577" width="34" height="35"></rect>
+                      <rect x="498" y="577" width="23" height="35"></rect>
+                      <rect x="288" y="537" width="36" height="27"></rect>
+                      <rect x="324" y="537" width="35" height="27"></rect>
+                      <rect x="194" y="537" width="37" height="27"></rect>
+                      <rect x="232" y="579" width="36" height="33"></rect>
+                      <polygon points="194,537 184,538 176,542 170,552 162,572 185,583 194,562"></polygon>
+                      <polygon points="187,605 218,621 205,652 172,637"></polygon>
+                      <polygon points="172,637 205,652 197,667 160,666"></polygon>
+                      <polygon points="139,619 162,630 154,650 131,639"></polygon>
+                      <polygon points="131,639 154,650 139,682 116,671"></polygon>
+                    </g>
+                    <polygon class="map-booth-room map-booth-lobby" points="428,470 464,468 464,576 428,576"></polygon>
+                    <rect class="map-booth-room" x="413" y="577" width="51" height="35"></rect>
+                    <rect class="map-booth-room" x="287" y="577" width="27" height="35"></rect>
+                    <rect class="map-booth-room" x="232" y="579" width="36" height="33"></rect>
+                    <rect class="map-booth-room" x="194" y="537" width="37" height="27"></rect>
+                    <g class="map-markers" aria-hidden="true">
+                      <g><circle cx="446" cy="522" r="11"></circle><text x="446" y="522">1</text></g>
+                      <g><circle cx="438.5" cy="594.5" r="11"></circle><text x="438.5" y="594.5">2</text></g>
+                      <g><circle cx="300.5" cy="594.5" r="11"></circle><text x="300.5" y="594.5">3</text></g>
+                      <g><circle cx="250" cy="595.5" r="11"></circle><text x="250" y="595.5">4</text></g>
+                      <g><circle cx="212.5" cy="550.5" r="11"></circle><text x="212.5" y="550.5">5</text></g>
+                    </g>
+                  </svg>
+                  <p class="booth-map-caption">약도의 번호를 아래 위치별 부스 목록과 대조해 주세요.</p>
+                </div>
+                <ol class="booth-location-list" aria-label="위치별 부스 목록">
+                  <li class="booth-location-item">
+                    <h4>5층 로비</h4>
+                    <p><strong>아트비트</strong> · 만화경 만들기, 경품 뽑기, 고무줄총 쏘기</p>
+                    <p><strong>토크</strong> · 천체 요요 만들기, 행성 고리 던지기</p>
+                  </li>
+                  <li class="booth-location-item">
+                    <h4>S503 <span>T.O.P</span></h4>
+                    <p>광섬유 별빛 스노우볼 만들기</p>
+                  </li>
+                  <li class="booth-location-item">
+                    <h4>S509 <span>THE BIT</span></h4>
+                    <p>태양계 오토마타 만들기</p>
+                  </li>
+                  <li class="booth-location-item">
+                    <h4>S511 <span>징검다리</span></h4>
+                    <p>태양계 팔찌, 별자리 가죽 키링</p>
+                  </li>
+                  <li class="booth-location-item">
+                    <h4>S512</h4>
+                    <p>별자리 운세</p>
+                  </li>
+                </ol>
+              </div>
+            </section>
+            <section class="booth-operations" aria-labelledby="booth-operations-title">
+              <div class="operation-heading">
+                <div>
+                  <p class="operation-eyebrow">VISITOR GUIDE</p>
+                  <h3 id="booth-operations-title">체험 회차 및 이용 안내</h3>
+                </div>
+                <p>예약 체험의 회차별 정원과 장소를 확인해 주세요.</p>
+              </div>
+
+              <div class="reservation-rules">
+                <div class="reservation-start">
+                  <span class="ico-circle"><i class="bi bi-calendar2-check"></i></span>
+                  <div>
+                    <h4>현장 예약</h4>
+                    <p>1층 로비에서 18:00부터 예약</p>
+                  </div>
+                </div>
+                <ul>
+                  <li>예약한 회차에 불참해도 대기자를 입장시키지 않고 해당 회차를 진행합니다.</li>
+                  <li>예약하지 않은 회차에는 입장할 수 없으며, 체험 물품은 별도로 제공하지 않습니다.</li>
+                </ul>
+              </div>
+
+              <h4 class="operation-table-title">예약 체험 회차</h4>
+              <div class="round-table-wrap">
+                <table class="round-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">부스명</th>
+                      <th scope="col">회차당 인원</th>
+                      <th scope="col">운영 회차</th>
+                      <th scope="col">장소</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">만화경 만들기</th>
+                      <td data-label="회차당 인원">4명</td>
+                      <td data-label="운영 회차">6회</td>
+                      <td data-label="장소">5층 로비</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">천체 요요 만들기</th>
+                      <td data-label="회차당 인원">4명</td>
+                      <td data-label="운영 회차">6회</td>
+                      <td data-label="장소">5층 로비</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">행성 고리 던지기</th>
+                      <td data-label="회차당 인원">4명</td>
+                      <td data-label="운영 회차">6회</td>
+                      <td data-label="장소">5층 로비</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">광섬유 별빛 스노우볼 만들기</th>
+                      <td data-label="회차당 인원">5명</td>
+                      <td data-label="운영 회차">6회</td>
+                      <td data-label="장소">S503</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">태양계 오토마타 만들기</th>
+                      <td data-label="회차당 인원">8명</td>
+                      <td data-label="운영 회차">6회</td>
+                      <td data-label="장소">S509</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h4 class="operation-table-title">추가 부스 위치</h4>
+              <div class="round-table-wrap">
+                <table class="location-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">부스명</th>
+                      <th scope="col">장소</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><th scope="row">고무줄총 쏘기</th><td>5층 로비</td></tr>
+                    <tr><th scope="row">태양계 팔찌</th><td>S511</td></tr>
+                    <tr><th scope="row">별자리 가죽 키링</th><td>S511</td></tr>
+                    <tr><th scope="row">별자리 운세</th><td>S512</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="waiting-rules">
+                <h4><i class="bi bi-hourglass-split"></i> 현장 대기 및 유의 사항</h4>
+                <p>천문 체험 부스 운영 시간에 해당 장소에서 대기한 뒤 참여해 주세요. 재료 소진 등으로 일찍 마감될 수 있으며, 부스에 참여하지 못한 분께 체험 물품을 별도로 제공하지 않습니다.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="targets" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                천문대 관측
+              </h3>
+              <p class="subtitle-a">
+                밤하늘을 밝히는 빛들
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">지구의 유일한 위성, <span style="font-weight: bold; color: var(--primary);">달</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 384,400km</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">고리가 있는 행성, <span style="font-weight: bold; color: var(--primary);">토성</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 11.95억 km ~ 16.6억 km</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">별들의 요양원, <span style="font-weight: bold; color: var(--primary);">M2</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 37,500광년</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">가장 큰 구상성단, <span style="font-weight: bold; color: var(--primary);">M13</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 25,000광년</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">별들의 노인정, <span style="font-weight: bold; color: var(--primary);">M15</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 33,600광년</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">국부 은하군 삼대장 막내, <span style="font-weight: bold; color: var(--primary);">M33</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 300만 광년</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-7.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">색이 다른 쌍성, <span style="font-weight: bold; color: var(--primary);">알비레오</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 385광년</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-8.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">백색왜성의 잔해, <span style="font-weight: bold; color: var(--primary);">고리성운</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 2,300광년</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-9.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">헬스장에 있을 법한, <span style="font-weight: bold; color: var(--primary);">아령성운</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 1,360광년</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-10.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">카시오페이아자리에 위치한 E.T., <span style="font-weight: bold; color: var(--primary);">올빼미 성단</span></h2>
+                    <div class="w-more">
+                      <span style="font-weight: bold; color: var(--second);">지구와의 거리 7,900광년</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                404 밴드 공연
+              </h3>
+              <p class="subtitle-a">
+                1층 로비
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="box-shadow-full performance-panel">
+                <div class="row">
+                  <div class="col-md-10 mx-auto">
+                    <div class="about-me pt-4 pt-md-0">
+                      <h5 class="title-left" style="color: var(--primary);">공연 곡</h5>
+                      <ol class="setlist">
+                        <li><span class="track-artist">잔나비</span><span class="track-title">See Your eyes</span></li>
+                        <li><span class="track-artist">잔나비</span><span class="track-title">사랑하긴 했었나요 스쳐가는 인연이었나요…</span></li>
+                        <li><span class="track-artist">유다빈밴드</span><span class="track-title">love song</span></li>
+                        <li><span class="track-artist">하현상</span><span class="track-title">등대</span></li>
+                        <li><span class="track-artist">can’t be blue</span><span class="track-title">첫눈에 널 사랑할 수는 없었을까</span></li>
+                      </ol>
+                      <ul class="list-ico">
+                        <li style="color: var(--primary);"><span class="bi bi-instagram"></span>@b612_in_sasa_</li>
+                      </ul>
+                      <div class="socials">
+                        <ul>
+                          <li><a href="https://www.instagram.com/b612_in_sasa_/"><span class="ico-circle"><i
+                                  class="bi bi-instagram"></i></span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>B612 & SASA 10th</strong>. All Rights Reserved</p>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+              Designed by <strong>SASA 10th</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/background.js"></script>
+</body>
+
+</html>
